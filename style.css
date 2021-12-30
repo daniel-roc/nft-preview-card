@@ -9,7 +9,7 @@
   --divisor-line-color: hsl(215, 32%, 27%);
   --white-color: hsl(0, 0%, 100%);
   --text-base-color: hsl(215, 51%, 70%);
-  --text-price-color: hsl(178, 100%, 50%);
+  --hover-color: hsl(178, 100%, 50%);
   --font-paragraph-size: 18px;
 }
 
