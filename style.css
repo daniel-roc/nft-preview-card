@@ -4,21 +4,65 @@
 }
 
 :root {
+  /* colors */
   --background-color: hsl(217, 54%, 11%);
   --card-background-color: hsl(216, 50%, 16%);
   --divisor-line-color: hsl(215, 32%, 27%);
   --white-color: hsl(0, 0%, 100%);
-  --text-base-color: hsl(215, 51%, 70%);
   --hover-color: hsl(178, 100%, 50%);
-  --font-paragraph-size: 18px;
+  --text-base-color: hsl(215, 51%, 70%);
+  /* fonts */
+  --title-font-size: 1.25rem;
+  --paragraph-font-size: 1.125rem;
+  --body-font: 'Outfit', sans-serif;
 }
 
 body {
-  font-family: 'Outfit', sans-serif;
+  font-family: var(--body-font);
+}
+
+main {
+  display: grid;
+  place-items: center;
+  background-color: var(--background-color);
+  height: 100vh;
+}
+
+.card {
+  background-color: var(--card-background-color);
+  max-width: 225px;
+  height: 425px;
+  padding: 20px;
+  border-radius: 5%;
+  text-align: left;
+}
+
+.image img {
+  max-width: 250px;
+  border-radius: 5%;
+}
+
+.title {
+  font-size: var(--title-font-size);
+  color: var(--white-color);
+}
+
+p {
+  font-size: var(--paragraph-font-size);
+  color: var(--text-base-color);
+}
+
+.price {
+  color: var(--hover-color);
+}
+
+p span {
+  color: var(--white-color);
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 0.6875rem;
+  color: gray;
   text-align: center;
 }
 .attribution a {
