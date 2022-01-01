@@ -12,39 +12,50 @@
   --hover-color: hsl(178, 100%, 50%);
   --text-base-color: hsl(215, 51%, 70%);
   /* fonts */
-  --title-font-size: 1.25rem;
-  --paragraph-font-size: 1.125rem;
+  --title-font-size: 1rem;
+  --paragraph-font-size: 0.875rem;
   --body-font: 'Outfit', sans-serif;
 }
 
 body {
+  height: 100vh;
+  background-color: var(--background-color);
   font-family: var(--body-font);
 }
 
 main {
-  display: grid;
-  place-items: center;
-  background-color: var(--background-color);
-  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 97vh;
 }
 
 .card {
   background-color: var(--card-background-color);
   max-width: 225px;
-  height: 425px;
-  padding: 20px;
-  border-radius: 5%;
+  height: 380px;
+  padding: 17px;
+  border-radius: 3%;
   text-align: left;
 }
 
+.image {
+  text-align: center;
+}
+
 .image img {
-  max-width: 250px;
-  border-radius: 5%;
+  max-width: 225px;
+  border-radius: 3%;
 }
 
 .title {
   font-size: var(--title-font-size);
   color: var(--white-color);
+}
+
+.cardDetails {
+  display: flex;
+  justify-content: space-between;
 }
 
 p {
@@ -61,9 +72,11 @@ p span {
 }
 
 .attribution {
+  display: flex;
+  justify-content: center;
+
   font-size: 0.6875rem;
   color: gray;
-  text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
