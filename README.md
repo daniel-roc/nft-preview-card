@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution link](https://www.frontendmentor.io/solutions/nft-preview-card-solution-USxj2nSkU)
-- Live Site URL: [Live site URL here](https://daniel-roc.github.io/nft-preview-card/)
+- Solution URL: [Click Here](https://www.frontendmentor.io/solutions/nft-preview-card-solution-USxj2nSkU)
+- Live Site URL: [Click here](https://daniel-roc.github.io/nft-preview-card/)
 
 ## My process
 
@@ -41,5 +41,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Daniel Rocha](https://danirocha.dev/)
+- Daniel Rocha - [danirocha.dev](https://danirocha.dev/)
 - Frontend Mentor - [@daniel-roc](https://www.frontendmentor.io/profile/daniel-roc)
