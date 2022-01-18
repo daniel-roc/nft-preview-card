@@ -41,29 +41,69 @@ p {
   height: 410px;
   padding: 17px;
   border-radius: 3%;
-  text-align: left;
 }
 
-#image {
+#cover-container {
   width: 225px;
   height: 225px;
   border-radius: 3%;
+  position: relative;
 }
 
-#image img {
+#main-cover img {
+  position: absolute;
   width: 100%;
   height: auto;
   border-radius: 3%;
 }
 
-#image:hover {
+#hover-container {
+  position: absolute;
+  width: 225px;
+  height: 225px;
+  border-radius: 3%;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+#hover-container:hover {
+  opacity: 1;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+#hover-background {
+  position: absolute;
   background-color: var(--hover-color);
+  width: 225px;
+  height: 225px;
+  border-radius: 3%;
+  opacity: 0.5;
+}
+
+#hover-icon {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  opacity: 1;
 }
 
 .title {
   margin-top: 1rem;
   font-size: var(--title-font-size);
   color: var(--white-color);
+  transition: 0.4s;
+}
+
+.title:hover {
+  color: var(--hover-color);
+  transition: 0.4s;
+  cursor: pointer;
 }
 
 .cardDetails {
@@ -111,6 +151,13 @@ ul {
 
 .cardOwner p span {
   color: var(--white-color);
+  transition: 0.4s;
+}
+
+.cardOwner p span:hover {
+  color: var(--hover-color);
+  transition: 0.4s;
+  cursor: pointer;
 }
 
 .divider {
